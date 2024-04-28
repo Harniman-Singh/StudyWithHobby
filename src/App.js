@@ -9,6 +9,7 @@ import { Route, Routes } from "react-router-dom";
 // import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
+
 import OpenRoute from "./Components/core/Auth/OpenRoute"
 import About from "./pages/About"
 import Contact from "./pages/Contact";
