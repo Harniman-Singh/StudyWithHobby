@@ -12,8 +12,8 @@ const CourseProgress = require("../models/courseProgress")
 
 // Capture the payment and initiate the Razorpay order
 exports.capturePayment = async (req, res) => {
-
-  // console.log("enter the capture payment wala");
+ 
+  console.log("enter the capture payment wala");
   // console.log("key is ",process.env.RAZORPAY_KEY);
   const { courses } = req.body
   const userId = req.user.id
