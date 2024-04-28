@@ -26,7 +26,7 @@ app.use(cookieParser());
 app.use(
 	cors({
         //front end ko entertain karna hai
-		origin:"http://localhost:3000",
+		origin:"https://studywithhobby.onrender.com",
 		credentials:true,
 	})
 )
