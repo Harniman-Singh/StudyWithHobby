@@ -155,13 +155,10 @@ function loadScript(src) {
 
 
 export async function buyCourse(token, courses, userDetails, navigate, dispatch) {
-    // const toastId = toast.loading("Loading...");
+    const toastId = toast.loading("Loading...");
     try{
         //load the script
-       const toastId = toast.loading("Please wait while we redirect you to payment gateway", {
-      position: "bottom-center",
-      autoClose: false,
-    });
+      
         const res = await loadScript("https://checkout.razorpay.com/v1/checkout.js");
 
         
