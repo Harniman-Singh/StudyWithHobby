@@ -26,17 +26,9 @@ function Template({ title, desc1, desc2, image, formType }) {
 
         {formType === "signup" ? <SignupForm /> : <LoginForm />}
 
-        <div className="flex w-full items-center my-4 gap-x-2">
-          <div className="h-[1px] w-full bg-richblack-700"></div>
-          <p className="text-richblack-700 font-medium leading-[1.375rem]">OR</p>
-          <div className="h-[1px] w-full bg-richblack-700"></div>
-        </div>
+        
 
-        <button className="w-full flex items-center justify-center rounded-[8px] font-medium text-richblack-100 border-richblack-700 border px-[12px] py-[8px] gap-x-2 mt-6">
-          <FcGoogle />
-          <a href="/signup" target="_blank"><p>Sign Up with Google</p></a>
-          
-        </button>
+        
       </div>
 
       <div className="relative w-11/12 max-w-[450px] top-[40px]">
