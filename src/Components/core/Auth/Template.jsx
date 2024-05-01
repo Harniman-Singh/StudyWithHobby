@@ -31,7 +31,7 @@ function Template({ title, desc1, desc2, image, formType }) {
         
       </div>
 
-     <div className="relative hidden md:block md:w-11/12 md:max-w-[450px] top-[40px]">
+     <div className="relative hidden md:block lg:block md:w-11/12 md:max-w-[450px] top-[40px]">
     
 
     <img src={frame}
@@ -39,11 +39,11 @@ function Template({ title, desc1, desc2, image, formType }) {
      
      
       loading="lazy" 
-      className='h-[447px] w-[588px] hidden md:block'/>
+      className='h-[447px] w-[588px] hidden md:block lg:block'/>
     {/* this image is send by props */}
     <img src={image} alt="Pattern" width={588} 
      height={45} loading="lazy"
-    className='absolute -top-4 right-4 h-[446px] w-[437px] hidden md:block'  />
+    className='absolute -top-4 right-4 h-[446px] w-[437px] hidden md:block lg:block'  />
   </div>
 
           
