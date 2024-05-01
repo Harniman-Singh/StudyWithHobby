@@ -39,7 +39,7 @@ function Template({ title, desc1, desc2, image, formType }) {
      
      
       loading="lazy" 
-      className='h-[447px] w-[588px]'/>
+      className='h-[447px] w-[588px] sm:hidden block'/>
     {/* this image is send by props */}
     <img src={image} alt="Pattern" width={588} 
      height={45} loading="lazy"
