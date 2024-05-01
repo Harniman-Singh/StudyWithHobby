@@ -16,7 +16,7 @@ function Template({ title, desc1, desc2, image, formType }) {
   return (
     <div className='flex w-11/12 max-w-[1160px] py-8 mx-auto gap-x-12 justify-between '>
       
-    <div className='w-11/12 max-w-[460px]'>
+    <div className='w-full md:w-11/12 md:max-w-[450px]'>
     <h1 className='text-richblack-5 font-semibold text-[1.875rem] leading-[2.375rem]'>{title}</h1>
     <p className='text-[1.125rem] leading-[1.625rem] mt-4'>
       <span className='text-richblack-100'>{desc1}</span>
@@ -31,7 +31,7 @@ function Template({ title, desc1, desc2, image, formType }) {
         
       </div>
 
-      <div className="relative w-11/12 max-w-[450px] top-[40px]">
+     <div className="relative hidden md:block md:w-11/12 md:max-w-[450px] top-[40px]">
     
 
     <img src={frame}
