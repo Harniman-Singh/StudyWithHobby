@@ -126,10 +126,10 @@ function Navbar() {
     >
      
      <Link to="/">
-        <img src={logo} alt="logo"  width={160} height={32} loading='lazy' className="rounded-md" />
+        <img src={logo} alt="logo"  width={160} height={32} loading='lazy' className="rounded-md hidden md:block" />
       </Link>
         {/* Navigation links */}
-        <nav className="hidden md:block">
+        <nav>
         <ul className='flex gap-x-6  text-white text-[25px] '>
 
             {NavbarLinks.map((link, index) => (
@@ -223,9 +223,7 @@ function Navbar() {
           )}
           {token !== null && <ProfileDropdown />}
         </div>
-        <button className="mr-4 md:hidden">
-          <AiOutlineMenu fontSize={24} fill="#AFB2BF" />
-        </button>
+
       </div>
    
   )
