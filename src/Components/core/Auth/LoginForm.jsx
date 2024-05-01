@@ -280,6 +280,7 @@ function LoginForm() {
             <button className="w-full flex items-center justify-center rounded-[8px] font-medium text-richblack-100 border-richblack-700 border px-[12px] py-[8px] gap-x-2 mt-6">
           <FcGoogle />
           <a href="/signup" target="_blank"><p>Sign Up with Google</p></a>
+                    
           
         </button>
     </form>
