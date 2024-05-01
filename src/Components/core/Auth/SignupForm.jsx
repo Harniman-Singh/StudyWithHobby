@@ -75,7 +75,7 @@
 //       </div>
 
 //       <form onSubmit={submitHandler}>
-//         <div className="flex gap-x-4">
+//         <div className="flex gap-x-3">
 //           <label htmlFor="" className="w-full">
 //             <p className="text-[0.875rem] text-richblack-5 mb-1 leading-[1.375rem]">
 //               First Name <sup className="text-pink-200">*</sup>
@@ -124,7 +124,7 @@
 //           />
 //         </label>
 
-//         <div className="flex gap-x-4">
+//         <div className="flex gap-x-3">
 //           <label htmlFor="w-full relative">
 //             <p className="text-[0.875rem] text-richblack-5 mb-1 leading-[1.375rem]">
 //               Create Password
@@ -181,7 +181,7 @@
 //           </label>
 //         </div>
 
-//         <button className="bg-yellow-50 py-[8px] px-[12px] rounded-[8px] mt-6 font-medium text-richblack-900 w-full">
+//         <button className="bg-yellow-50 py-[8px] px-[12px] rounded-[8px] mt-4 font-medium text-richblack-900 w-full">
 //           Create Account
 //         </button>
 //       </form>
