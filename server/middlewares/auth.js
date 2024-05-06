@@ -117,13 +117,13 @@ dotenv.config();
 exports.auth = async (req, res, next) => {
 	try {
 		// Extracting JWT from request cookies, body or header
-        console.log("getting the token");
+        // console.log("getting the token");
 		const token =
 			req.cookies.token ||
 			req.body.token ||
 			req.header("Authorisation").replace("Bearer ", "");
 
-        // console.log("auth wala token",token);
+        console.log("auth wala token",token);
 
 		// If JWT is missing, return 401 Unauthorized response
 		if (!token) {
@@ -191,9 +191,9 @@ exports.isAdmin = async (req, res, next) => {
 exports.isInstructor = async (req, res, next) => {
 	try {
 		const userDetails = await User.findOne({ email: req.user.email });
-		console.log(userDetails);
+		// console.log(userDetails);
 
-		console.log(userDetails.accountType);
+		// console.log(userDetails.accountType);
 
 		if (userDetails.accountType !== "Instructor") {
 			return res.status(401).json({
