@@ -52,6 +52,7 @@
 //     }
 //     if (!status || status === undefined) {
 //       status = "Draft"
+
 //     }
 //     // Check if the user is an instructor
 //     const instructorDetails = await User.findById(userId, {
